@@ -1,7 +1,7 @@
 def enumerate_list(list):
     result = []
     for pepe in list:
-        if not e: continue
+        if not pepe: continue
         
         result += [f'{len(result)}. {pepe}']
     
@@ -11,7 +11,7 @@ def enumerate_list(list):
 def enumerate_backwards(list):
     result = []
     for pepe in list:
-        if e != '': 
+        if pepe != '': 
             result += [f'{len(result)}. {pepe[::-1]}']
     
     return result

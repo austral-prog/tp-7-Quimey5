@@ -1,18 +1,18 @@
 colors = ["Red", "Green", "", "White", "Black"]
 def enumerate_list(list):
-    result = []
+    colors = []
     for pepe in list:
         if not pepe: continue
         
         result += [f'{len(result)}. {pepe}']
     
-    return result
+    return colors
 
 
 def enumerate_backwards(list):
-    result = []
+    colors = []
     for pepe in list:
         if pepe != '': 
             result += [f'{len(result)}. {pepe[::-1]}']
     
-    return result
+    return colors

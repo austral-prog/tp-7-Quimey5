@@ -1,3 +1,4 @@
+colors = ["Red", "Green", "", "White", "Black"]
 def enumerate_list(list):
     result = []
     for pepe in list:

@@ -15,7 +15,9 @@ def enumerate_list(colors):
     
     return new_list
 
+result = enumerate_list(colors)
 
+print(result)
 def enumerate_list(colors):
   
 
@@ -33,3 +35,7 @@ def enumerate_list(colors):
             result_index += 1
     
     return new_list
+result = enumerate_backwards(colors)
+
+
+print(result)
